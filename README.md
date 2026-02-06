@@ -7,8 +7,8 @@
 
 </div>
 
-<!-- ## News
-- **[2026/02/06]** We release our [paper](https://arxiv.org/pdf/2506.01347) and code. 🚀 -->
+## News
+- **[2026/02/06]** We release our [paper](https://arxiv.org/abs/2602.05548) and code. 🚀
 ## Quick Start
 ### Installation
 Our code is implemented based on [verl](https://github.com/volcengine/verl) and [W-REINFORCE](https://github.com/TianHongZXY/RLVR-Decomposed). Thanks for their great work! We recommend to use docker image provided by verl, please refer to their [documents](https://verl.readthedocs.io/en/v0.2.x/start/install.html).
@@ -49,7 +49,7 @@ Calculate Pass@k: `python calculate_metrics --file_path <file_to_evaluate>`
 
 - Frozen after `Started a local Ray instance.`: Add `num_cpus=N` to `ray.init()` in `verl/trainer/main_ppo.py`,  for example, `ray.init(num_cpus=4, runtime_env={'env_vars': {'TOKENIZERS_PARALLELISM': 'true', 'NCCL_DEBUG': 'WARN'}})`
  
- <!-- ## Citation
+<!-- ## Citation
 
 If you find our paper or code useful, please consider cite our work:
 
@@ -59,5 +59,5 @@ If you find our paper or code useful, please consider cite our work:
   author={Zhu, Xinyu and Xia, Mengzhou and Wei, Zhepei and Chen, Wei-Lin and Chen, Danqi and Meng, Yu},
   journal={arXiv preprint arXiv:2506.01347},
   year={2025}
-}
-``` -->
+} -->
+
