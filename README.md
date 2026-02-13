@@ -8,7 +8,7 @@
 </div>
 
 ## News
-- **[2026/02/13]** Our project web can be found in https://yu7-code.github.io/A-GRAE-web/. ✨
+- **[2026/02/13]** Our project web can be found in [here](https://yu7-code.github.io/A-GRAE-web/). ✨
 - **[2026/02/06]** We release our [paper](https://arxiv.org/abs/2602.05548) and code. 🚀
 ## Quick Start
 ### Installation
